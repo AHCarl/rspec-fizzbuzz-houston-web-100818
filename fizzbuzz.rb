@@ -12,6 +12,9 @@ def fizzbuzz(num)
     result += "Buzz"
   end
   
-  if result.
+  if result.length < 4
+    return nil 
+  end
+  result
 
 end
