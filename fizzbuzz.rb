@@ -3,12 +3,16 @@
 
 def fizzbuzz(num)
   result = nil
+  if num % 3 == 0 && num % 5 == 0 
+    result = "FizzBuzz"
   
   if num % 3 == 0 
     result = "Fizz"
   end
+  
   if num % 5 == 0 
-    result += "Buzz"
+    result = "Buzz"
   end
+  
   result
 end
