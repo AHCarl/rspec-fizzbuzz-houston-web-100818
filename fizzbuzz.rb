@@ -10,3 +10,4 @@ def fizzbuzz(num)
     result += "Buzz"
   result
 end
+end
